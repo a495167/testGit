@@ -27,6 +27,7 @@ public class TestSwitch {
 		for (int i = 0; i < 5; i++) {
 			System.out.println(new Random().nextInt());
 		}
+
 		for (int i = 0; i < 5; i++) {
 			System.out.println(UUID.randomUUID().toString());
 		}
@@ -39,7 +40,7 @@ public class TestSwitch {
 				for (int i = 0; i < listPos.size() - 1; i++) {
 
 					if (listPos.get(i) >= listPos.get(i + 1)) {
-						System.out.println("Desc:Sorting correct");
+						System.out.println("Desc:Sorting correct !!!");
 					}
 					else {
 						System.out.println("Desc:Sorting Is not correct");

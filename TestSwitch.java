@@ -24,9 +24,7 @@ public class TestSwitch {
 	public static void main(String arg[]) {
 
 
-		for (int i = 0; i < 5; i++) {
-			System.out.println(new Random().nextInt());
-		}
+	
 		for (int i = 0; i < 5; i++) {
 			System.out.println(UUID.randomUUID().toString());
 		}

@@ -22,14 +22,7 @@ import java.util.UUID;
 public class TestSwitch {
 
 	public static void main(String arg[]) {
-		// ArrayList<Double> listPos = new ArrayList<Double>();
-		// listPos.add(5.1);
-		// listPos.add(4.1);
-		// listPos.add(3.1);
-		// listPos.add(2.1);
-		// String order = "Desc";
-		// switchWithBreak(order, listPos);
-		// switchWithBreakError(order, listPos);
+
 
 		for (int i = 0; i < 5; i++) {
 			System.out.println(new Random().nextInt());
